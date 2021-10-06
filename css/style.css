@@ -50,6 +50,8 @@ ul {
 }
 .logo-header {
   margin-right: 90px;
+
+  padding: 24px 0;
 }
 /* Logo  */
 .logo {
@@ -82,7 +84,7 @@ ul {
 }
 .nav-link {
   display: block;
-  padding: 25px 0;
+  padding: 32px 0;
   text-decoration: none;
   color: var(--title-text-color);
   font-weight: 500;
@@ -107,7 +109,7 @@ ul {
 }
 .nav-list .feedback-inf {
   display: block;
-  padding: 25px 0;
+  padding: 32px 0;
 }
 
 /*----------------------------------------------------------------------*/
@@ -264,8 +266,9 @@ ul {
 }
 .addres-descr .ftr-add {
   color: var(--primary-white-color);
+  margin-bottom: 9px;
 }
-.footer-li {
+.footer-li:last-child {
   margin-top: 9px;
 }
 /*----------------------------------------------------------------------*/
