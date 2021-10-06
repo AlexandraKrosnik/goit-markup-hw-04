@@ -271,13 +271,15 @@ ul {
 }
 .employee-li .networks {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .networks .li-network {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+.networks .li-network:not(:last-child) {
+  margin-right: 10px;
 }
 .li-network a {
   display: block;
