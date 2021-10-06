@@ -292,6 +292,36 @@ ul {
 .li-network:focus .svg-network {
   fill: var(--primary-white-color);
 }
+
+/* 4 */
+.list-customers {
+  display: flex;
+  align-items: center;
+}
+.li-customer {
+  width: calc(100% - (5 * 30px) / 6);
+  border: 1px solid var(--network-color);
+  border-radius: 4px;
+}
+.li-customer a {
+  display: block;
+  width: inherit;
+  padding: 16px 32px;
+}
+.li-customer:not(:last-child) {
+  margin-right: 30px;
+}
+.svg-customer {
+  fill: var(--network-color);
+}
+.li-customer:hover,
+.li-customer:focus {
+  border: 1px solid var(--accent-color);
+}
+.li-customer:hover .svg-customer,
+.li-customer:focus .svg-customer {
+  fill: var(--accent-color);
+}
 /* footer */
 .main-footer {
   background-color: var(--hero-footer-bg);
